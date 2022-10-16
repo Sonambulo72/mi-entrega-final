@@ -19,5 +19,5 @@ from blog.views import index as blog_index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', blog_index),
+    path('blog/', blog_index), #agregado
 ]
